@@ -5,11 +5,13 @@ Home: https://github.com/dddomodossola/remi
 
 Package license: Apache 2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/remi-feedstock/blob/master/LICENSE.txt)
 
 Summary: Remi is a GUI library for Python applications that gets rendered in web browsers.
 
+Development: https://github.com/dddomodossola/remi
 
+Documentation: https://github.com/dddomodossola/remi
 
 Current build status
 ====================
