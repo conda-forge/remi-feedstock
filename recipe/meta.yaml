@@ -1,5 +1,5 @@
 {% set name = "remi" %}
-{% set version = "2020.11.10" %}
+{% set version = "2020.11.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d1ea324534fc5cb7176fff3c48aac974ac3944584fca34977640bafd266ef698
+  sha256: 2a32658146b63d33a88aff7362679873c9df9e42a9e651c9e6642da834b3cca1
 
 build:
   noarch: python
