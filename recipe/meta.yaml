@@ -1,5 +1,5 @@
 {% set name = "remi" %}
-{% set version = "2021.3.2" %}
+{% set version = "2022.3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c8691f007dc30b91013131b6aded3521c17ef8ec9fdd152a0ad481b8cb793f14
+  sha256: 1cda91662aa35f07912c5a6cfd54764ee60b81fcc4358d85aa04058f25e947f0
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/dddomodossola/remi
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   license_file: license.txt
   summary: Remi is a GUI library for Python applications that gets rendered in web browsers.
