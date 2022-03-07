@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/dddomodossola/remi
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   license_file: license.txt
   summary: Remi is a GUI library for Python applications that gets rendered in web browsers.
